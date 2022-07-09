@@ -1,0 +1,21 @@
+<%- include("header") -%>
+    <div class="container">
+        <h1 class="text-center mt-2">Contact Me</h1>
+        <form action="/contact" method="post" class="contactform mt-5">
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Phone Number</label>
+                <input type="tel" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="form-floating">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                <label for="floatingTextarea">Desc your query</label>
+            </div>
+            <button type="submit" class="btn btn-secondary mt-3 buttonofcontact">Submit</button>
+        </form>
+    </div>
+    <%- include("footer") -%>

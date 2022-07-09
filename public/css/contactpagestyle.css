@@ -1,0 +1,19 @@
+.container {
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contactform {
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    display: flex;
+    width: 80vw;
+}
+.buttonofcontact{
+    margin: auto;
+    width: 20vw;
+}
