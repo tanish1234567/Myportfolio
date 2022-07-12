@@ -57,7 +57,7 @@
 @media screen and (max-width: 819px) {
     .main{
         width: 98vw;
-        height: 330vh;
+        height: 120vh;
         display: flex;
         flex-direction: column;
         align-items: center;
