@@ -48,17 +48,31 @@
     border-radius: 10px;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
     #card1 {
         border: none;
-        height: 70vh;
-        width: 35vw;
+        height: 50vh;
+        width: 50vw;
     }
     
     #image {
         border: 15px solid grey;
         border-radius: 50%;
-        height: 70vh;
+        height: 45vh;
         width: 45vw;
+    }
+}
+@media screen and (max-width: 700px) {
+    #card1 {
+        border: none;
+        height: 45vh;
+        width: 50vw;
+    }
+    
+    #image {
+        border: 15px solid grey;
+        border-radius: 50%;
+        height: 35vh;
+        width: 35vw;
     }
 }
