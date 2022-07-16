@@ -1,72 +1,68 @@
-.main{
-    width: 98vw;
-    height: 120vh;
+.heading{
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
 }
-.text{
+.main {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 2rem;
+}
+
+.card {
+    width: 40vw;
+    height: 75vh;
+    margin-top: 3em;
+    color: white;
+    background-color: rgb(24, 24, 24);
+    border-radius: 15px;
+}
+
+.card img {
+    border-radius: 15px;
+    border: 2px solid black;
+}
+
+.borderofspan {
+    border: 2px solid white;
+    margin: 5px;
+    padding: 3px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+.skillsdiv{
+    width: 100vw;
+    display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
-.imgclass{
-    height: 196px;
+.skillsheading{
+    font-size: 3.2rem;
+    font-family:'Ubuntu', sans-serif;
 }
-#about{
-    font-weight: bold;
-    font-size: 3rem;
-}
-#para{
-    font-size: 1.5rem;
-}
-.cards{
+.list{
+    width: 50vw;
     display: flex;
     justify-content: space-evenly;
-    flex-wrap:wrap;
-    width: 85vw;
+    flex-wrap: wrap;
 }
-.card{
-    margin: 1.2rem;
+.list-items{
+    font-weight: 400;
+    font-family:'Ubuntu', sans-serif;
+    font-size: 2rem;
 }
-.card:hover{
-    background-color: rgb(74, 73, 73);
-    opacity: 70%;
+@media screen and (max-width: 1000px) {
+    .card {
+        width: 60vw;
+        height: 100vh;
+        margin-top: 3em;
+        color: white;
+        background-color: rgb(24, 24, 24);
+        border-radius: 15px;
+    }
 }
-.imgclass :hover{
-    opacity: 50%;
-}
-@media screen and (max-width: 1200px) {
-    .main{
-        width: 98vw;
-        height: 170vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    .cards{
-        display: flex;
-        flex-wrap:wrap;
-        width: 80vw;
-        justify-content:space-evenly;
-    }
-  }
-@media screen and (max-width: 819px) {
-    .main{
-        width: 98vw;
-        height: 120vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    .cards{
-        display: flex;
-        flex-wrap:wrap;
-        width: 80vw;
-        justify-content: center;
-    }
-  }
