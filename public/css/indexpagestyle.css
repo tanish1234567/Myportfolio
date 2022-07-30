@@ -53,6 +53,8 @@
         border: none;
         height: 50vh;
         width: 50vw;
+        display: block;
+        margin: auto;
     }
     
     #image {
@@ -60,19 +62,5 @@
         border-radius: 50%;
         height: 45vh;
         width: 45vw;
-    }
-}
-@media screen and (max-width: 700px) {
-    #card1 {
-        border: none;
-        height: 45vh;
-        width: 50vw;
-    }
-    
-    #image {
-        border: 15px solid grey;
-        border-radius: 50%;
-        height: 35vh;
-        width: 35vw;
     }
 }
